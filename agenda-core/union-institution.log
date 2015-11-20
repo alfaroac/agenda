@@ -1,0 +1,118 @@
+13:10:19 INFO [AgendaDAOTest] - <Loading context for locations: pe/gob/edu/ugel/agenda/core/config/application-config.xml,pe/gob/edu/ugel/agenda/core/config/applicationContext-dao.xml>
+13:10:19 INFO [XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [pe/gob/edu/ugel/agenda/core/config/application-config.xml]>
+13:10:19 INFO [XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [pe/gob/edu/ugel/agenda/core/config/applicationContext-dao.xml]>
+13:10:19 INFO [GenericApplicationContext] - <Refreshing org.springframework.context.support.GenericApplicationContext@5f150435: startup date [Tue Nov 17 13:10:19 COT 2015]; root of context hierarchy>
+13:10:19 INFO [PropertyPlaceholderConfigurer] - <Loading properties file from class path resource [pe/gob/edu/ugel/agenda/core/config/database.properties]>
+13:10:19 INFO [DriverManagerDataSource] - <Loaded JDBC driver: com.mysql.jdbc.Driver>
+13:10:19 INFO [GenericApplicationContext] - <Bean 'dataSource' of type [class org.springframework.jdbc.datasource.DriverManagerDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)>
+13:10:19 INFO [Environment] - <Hibernate 3.3.1.GA>
+13:10:19 INFO [Environment] - <hibernate.properties not found>
+13:10:19 INFO [Environment] - <Bytecode provider name : javassist>
+13:10:19 INFO [Environment] - <using JDK 1.4 java.sql.Timestamp handling>
+13:10:19 INFO [Configuration] - <configuring from url: file:/D:/www/workspacesDev/agenda/agenda-core/target/classes/pe/gob/edu/ugel/agenda/core/config/hibernate.cfg.xml>
+13:10:19 INFO [Configuration] - <Reading mappings from resource : pe/gob/edu/ugel/agenda/core/domain/Activity.hbm.xml>
+13:10:19 INFO [HbmBinder] - <Mapping class: pe.gob.edu.ugel.agenda.core.domain.Activity -> Activity>
+13:10:19 INFO [Configuration] - <Configured SessionFactory: null>
+13:10:19 INFO [LocalSessionFactoryBean] - <Building new Hibernate SessionFactory>
+13:10:19 INFO [ConnectionProviderFactory] - <Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider>
+13:10:20 INFO [SettingsFactory] - <RDBMS: MySQL, version: 5.1.33-community>
+13:10:20 INFO [SettingsFactory] - <JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )>
+13:10:20 INFO [Dialect] - <Using dialect: org.hibernate.dialect.MySQLInnoDBDialect>
+13:10:20 INFO [TransactionFactoryFactory] - <Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory>
+13:10:20 INFO [TransactionManagerLookupFactory] - <No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)>
+13:10:20 INFO [SettingsFactory] - <Automatic flush during beforeCompletion(): disabled>
+13:10:20 INFO [SettingsFactory] - <Automatic session close at end of transaction: disabled>
+13:10:20 INFO [SettingsFactory] - <JDBC batch size: 15>
+13:10:20 INFO [SettingsFactory] - <JDBC batch updates for versioned data: disabled>
+13:10:20 INFO [SettingsFactory] - <Scrollable result sets: enabled>
+13:10:20 INFO [SettingsFactory] - <JDBC3 getGeneratedKeys(): enabled>
+13:10:20 INFO [SettingsFactory] - <Connection release mode: auto>
+13:10:20 INFO [SettingsFactory] - <Maximum outer join fetch depth: 2>
+13:10:20 INFO [SettingsFactory] - <Default batch fetch size: 1>
+13:10:20 INFO [SettingsFactory] - <Generate SQL with comments: disabled>
+13:10:20 INFO [SettingsFactory] - <Order SQL updates by primary key: disabled>
+13:10:20 INFO [SettingsFactory] - <Order SQL inserts for batching: disabled>
+13:10:20 INFO [SettingsFactory] - <Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory>
+13:10:20 INFO [ASTQueryTranslatorFactory] - <Using ASTQueryTranslatorFactory>
+13:10:20 INFO [SettingsFactory] - <Query language substitutions: {}>
+13:10:20 INFO [SettingsFactory] - <JPA-QL strict compliance: disabled>
+13:10:20 INFO [SettingsFactory] - <Second-level cache: enabled>
+13:10:20 INFO [SettingsFactory] - <Query cache: disabled>
+13:10:20 INFO [SettingsFactory] - <Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory>
+13:10:20 INFO [SettingsFactory] - <Optimize cache for minimal puts: disabled>
+13:10:20 INFO [SettingsFactory] - <Structured second-level cache entries: disabled>
+13:10:20 INFO [SettingsFactory] - <Statistics: enabled>
+13:10:20 INFO [SettingsFactory] - <Deleted entity synthetic identifier rollback: disabled>
+13:10:20 INFO [SettingsFactory] - <Default entity-mode: pojo>
+13:10:20 INFO [SettingsFactory] - <Named query checking : enabled>
+13:10:20 INFO [SessionFactoryImpl] - <building session factory>
+13:10:20 INFO [SessionFactoryObjectFactory] - <Not binding factory to JNDI, no JNDI name configured>
+13:10:20 INFO [GenericApplicationContext] - <Bean 'sessionFactory' of type [class org.springframework.orm.hibernate3.LocalSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)>
+13:10:20 INFO [DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5025a98f: defining beans [org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,propertyConfigurer,dataSource,sessionFactory,transactionManager,agendaDAO]; root of factory hierarchy>
+13:10:20 INFO [HibernateTransactionManager] - <Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@71def8f8] of Hibernate SessionFactory for HibernateTransactionManager>
+13:10:20 WARN [AgendaDAOTest] - <No bean with name 'jdbcTemplate'>
+13:10:20 WARN [AgendaDAOTest] - <No bean with name 'transactionStatus'>
+13:10:20 INFO [AgendaDAOTest] - <list>>>>>> []>
+13:10:20 INFO [GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@5f150435: startup date [Tue Nov 17 13:10:19 COT 2015]; root of context hierarchy>
+13:10:20 INFO [DefaultListableBeanFactory] - <Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5025a98f: defining beans [org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,propertyConfigurer,dataSource,sessionFactory,transactionManager,agendaDAO]; root of factory hierarchy>
+13:10:20 INFO [LocalSessionFactoryBean] - <Closing Hibernate SessionFactory>
+13:10:20 INFO [SessionFactoryImpl] - <closing>
+13:15:37 INFO [AgendaDAOTest] - <Loading context for locations: pe/gob/edu/ugel/agenda/core/config/application-config.xml,pe/gob/edu/ugel/agenda/core/config/applicationContext-dao.xml>
+13:15:37 INFO [XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [pe/gob/edu/ugel/agenda/core/config/application-config.xml]>
+13:15:37 INFO [XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [pe/gob/edu/ugel/agenda/core/config/applicationContext-dao.xml]>
+13:15:38 INFO [GenericApplicationContext] - <Refreshing org.springframework.context.support.GenericApplicationContext@5f150435: startup date [Tue Nov 17 13:15:37 COT 2015]; root of context hierarchy>
+13:15:38 INFO [PropertyPlaceholderConfigurer] - <Loading properties file from class path resource [pe/gob/edu/ugel/agenda/core/config/database.properties]>
+13:15:38 INFO [DriverManagerDataSource] - <Loaded JDBC driver: com.mysql.jdbc.Driver>
+13:15:38 INFO [GenericApplicationContext] - <Bean 'dataSource' of type [class org.springframework.jdbc.datasource.DriverManagerDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)>
+13:15:38 INFO [Environment] - <Hibernate 3.3.1.GA>
+13:15:38 INFO [Environment] - <hibernate.properties not found>
+13:15:38 INFO [Environment] - <Bytecode provider name : javassist>
+13:15:38 INFO [Environment] - <using JDK 1.4 java.sql.Timestamp handling>
+13:15:38 INFO [Configuration] - <configuring from url: file:/D:/www/workspacesDev/agenda/agenda-core/target/classes/pe/gob/edu/ugel/agenda/core/config/hibernate.cfg.xml>
+13:15:38 INFO [Configuration] - <Reading mappings from resource : pe/gob/edu/ugel/agenda/core/domain/Activity.hbm.xml>
+13:15:38 INFO [HbmBinder] - <Mapping class: pe.gob.edu.ugel.agenda.core.domain.Activity -> Activity>
+13:15:38 INFO [Configuration] - <Configured SessionFactory: null>
+13:15:38 INFO [LocalSessionFactoryBean] - <Building new Hibernate SessionFactory>
+13:15:38 INFO [ConnectionProviderFactory] - <Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider>
+13:15:38 INFO [SettingsFactory] - <RDBMS: MySQL, version: 5.1.33-community>
+13:15:38 INFO [SettingsFactory] - <JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )>
+13:15:38 INFO [Dialect] - <Using dialect: org.hibernate.dialect.MySQLInnoDBDialect>
+13:15:38 INFO [TransactionFactoryFactory] - <Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory>
+13:15:38 INFO [TransactionManagerLookupFactory] - <No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)>
+13:15:38 INFO [SettingsFactory] - <Automatic flush during beforeCompletion(): disabled>
+13:15:38 INFO [SettingsFactory] - <Automatic session close at end of transaction: disabled>
+13:15:38 INFO [SettingsFactory] - <JDBC batch size: 15>
+13:15:38 INFO [SettingsFactory] - <JDBC batch updates for versioned data: disabled>
+13:15:38 INFO [SettingsFactory] - <Scrollable result sets: enabled>
+13:15:38 INFO [SettingsFactory] - <JDBC3 getGeneratedKeys(): enabled>
+13:15:38 INFO [SettingsFactory] - <Connection release mode: auto>
+13:15:38 INFO [SettingsFactory] - <Maximum outer join fetch depth: 2>
+13:15:38 INFO [SettingsFactory] - <Default batch fetch size: 1>
+13:15:38 INFO [SettingsFactory] - <Generate SQL with comments: disabled>
+13:15:38 INFO [SettingsFactory] - <Order SQL updates by primary key: disabled>
+13:15:38 INFO [SettingsFactory] - <Order SQL inserts for batching: disabled>
+13:15:38 INFO [SettingsFactory] - <Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory>
+13:15:38 INFO [ASTQueryTranslatorFactory] - <Using ASTQueryTranslatorFactory>
+13:15:38 INFO [SettingsFactory] - <Query language substitutions: {}>
+13:15:38 INFO [SettingsFactory] - <JPA-QL strict compliance: disabled>
+13:15:38 INFO [SettingsFactory] - <Second-level cache: enabled>
+13:15:38 INFO [SettingsFactory] - <Query cache: disabled>
+13:15:38 INFO [SettingsFactory] - <Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory>
+13:15:38 INFO [SettingsFactory] - <Optimize cache for minimal puts: disabled>
+13:15:38 INFO [SettingsFactory] - <Structured second-level cache entries: disabled>
+13:15:38 INFO [SettingsFactory] - <Statistics: enabled>
+13:15:38 INFO [SettingsFactory] - <Deleted entity synthetic identifier rollback: disabled>
+13:15:38 INFO [SettingsFactory] - <Default entity-mode: pojo>
+13:15:38 INFO [SettingsFactory] - <Named query checking : enabled>
+13:15:38 INFO [SessionFactoryImpl] - <building session factory>
+13:15:38 INFO [SessionFactoryObjectFactory] - <Not binding factory to JNDI, no JNDI name configured>
+13:15:38 INFO [GenericApplicationContext] - <Bean 'sessionFactory' of type [class org.springframework.orm.hibernate3.LocalSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)>
+13:15:38 INFO [DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5025a98f: defining beans [org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,propertyConfigurer,dataSource,sessionFactory,transactionManager,agendaDAO]; root of factory hierarchy>
+13:15:38 INFO [HibernateTransactionManager] - <Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@71def8f8] of Hibernate SessionFactory for HibernateTransactionManager>
+13:15:38 WARN [AgendaDAOTest] - <No bean with name 'jdbcTemplate'>
+13:15:38 WARN [AgendaDAOTest] - <No bean with name 'transactionStatus'>
+13:15:39 INFO [AgendaDAOTest] - <list>>>>>> [pe.gob.edu.ugel.agenda.core.domain.Activity : ID=1]>
+13:15:39 INFO [GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@5f150435: startup date [Tue Nov 17 13:15:37 COT 2015]; root of context hierarchy>
+13:15:39 INFO [DefaultListableBeanFactory] - <Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5025a98f: defining beans [org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,propertyConfigurer,dataSource,sessionFactory,transactionManager,agendaDAO]; root of factory hierarchy>
+13:15:39 INFO [LocalSessionFactoryBean] - <Closing Hibernate SessionFactory>
+13:15:39 INFO [SessionFactoryImpl] - <closing>

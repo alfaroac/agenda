@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 23/06/2012 10:38:16 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="pe.gob.edu.ugel.agenda.core.domain.Activity" table="Activity">
+		<id name="id" type="java.lang.Long">
+			<column name="id" />
+			<generator class="identity" />
+		</id>
+
+		<property name="title" type="string">
+			<column name="title" length="50" />
+		</property>
+		<property name="description" type="string">
+			<column name="description" length="200" />
+		</property>
+		<property name="place" type="string">
+			<column name="place" length="80" />
+		</property>
+
+		<property name="dateEvent" type="timestamp">
+			<column name="dateEvent"/>
+		</property>
+ 
+ 		<property name="startHour" type="string">
+			<column name="startHour" length="5" />
+		</property>
+		
+		<property name="endHour" type="string">
+			<column name="endHour" length="5" />
+		</property>	
+		
+		<property name="priority" type="string">
+			<column name="priority" length="20" />
+		</property>
+			
+		<property name="userInvited" type="java.lang.Long">
+			<column name="userInvited" length="20" />
+		</property>	
+	
+		<property name="userId" type="java.lang.Long">
+			<column name="userId" length="20" />
+		</property>			
+
+<!--         <many-to-one name="statusCompetitor" class="org.elecciones.core.domain.StatusCompetitor" lazy="false" fetch="select"> -->
+<!--             <column name="status" /> -->
+<!--         </many-to-one> -->
+        
+<!--         <many-to-one name="student" class="org.elecciones.core.domain.Student" lazy="false" fetch="select"> -->
+<!--             <column name="StudentId" /> -->
+<!--         </many-to-one> -->
+
+	</class>
+</hibernate-mapping>
