@@ -2,6 +2,8 @@ package pe.gob.edu.ugel.agenda.core.domain;
 
 import java.util.Date;
 
+import pe.gob.edu.ugel.agenda.core.util.CommonUtils;
+
 public class Activity extends BaseEntity {
 
 	private static final long serialVersionUID = 0L;
@@ -15,6 +17,20 @@ public class Activity extends BaseEntity {
 	private String priority;
 	private Long userInvited;
 	private Long userId;
+	private Long calendarId;
+	
+	
+	public String getDateEventYYYYMMDD() {
+		return CommonUtils.dateToString(dateEvent, "yyyy-MM-dd") ;
+	}
+	
+	public Long getCalendarId() {
+		return calendarId;
+	}
+
+	public void setCalendarId(Long calendarId) {
+		this.calendarId = calendarId;
+	}
 
 	public String getTitle() {
 		return title;

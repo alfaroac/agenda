@@ -1,6 +1,9 @@
-C:\Users\Aldo\Dropbox\Software II\agenda ugel\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\service\services\AgendaServiceImpl.java
-C:\Users\Aldo\Dropbox\Software II\agenda ugel\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\domain\BaseEntity.java
-C:\Users\Aldo\Dropbox\Software II\agenda ugel\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\dao\BaseDAOHibernate.java
-C:\Users\Aldo\Dropbox\Software II\agenda ugel\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\domain\Activity.java
-C:\Users\Aldo\Dropbox\Software II\agenda ugel\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\dao\AgendaDAO.java
-C:\Users\Aldo\Dropbox\Software II\agenda ugel\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\dao\AgendaDAOImpl.java
+D:\www\workspace\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\util\AgendaCommons.java
+D:\www\workspace\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\dao\AgendaDAO.java
+D:\www\workspace\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\dao\AgendaDAOImpl.java
+D:\www\workspace\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\domain\Activity.java
+D:\www\workspace\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\service\services\AgendaServiceImpl.java
+D:\www\workspace\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\dao\BaseDAOHibernate.java
+D:\www\workspace\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\domain\Calendar.java
+D:\www\workspace\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\domain\BaseEntity.java
+D:\www\workspace\agenda\agenda-core\src\main\java\pe\gob\edu\ugel\agenda\core\util\CommonUtils.java

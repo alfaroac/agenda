@@ -11,12 +11,8 @@ public class AbstractUnitTest extends
 		setAutowireMode(AUTOWIRE_BY_TYPE);
 		return new String[] {
 				"pe/gob/edu/ugel/agenda/core/config/application-config.xml",
-				"pe/gob/edu/ugel/agenda/core/config/applicationContext-dao.xml"
-//				,
-//				"org/elecciones/core/service/config/applicationContext-service.xml"
-//				"com/goolstar/core/config/applicationContext-dao.xml",
-//				"com/goolstar/core/config/applicationContext-service.xml",
-//				"com/goolstar/core/config/applicationContext-emailservice.xml", 
+				"pe/gob/edu/ugel/agenda/core/config/applicationContext-dao.xml",
+				"pe/gob/edu/ugel/agenda/core/service/config/applicationContext-service.xml"
 			};
 	}
 

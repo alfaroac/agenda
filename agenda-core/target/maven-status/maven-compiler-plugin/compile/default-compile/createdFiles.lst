@@ -1,0 +1,9 @@
+pe\gob\edu\ugel\agenda\core\domain\Calendar.class
+pe\gob\edu\ugel\agenda\core\dao\AgendaDAO.class
+pe\gob\edu\ugel\agenda\core\dao\AgendaDAOImpl.class
+pe\gob\edu\ugel\agenda\core\dao\BaseDAOHibernate.class
+pe\gob\edu\ugel\agenda\core\service\services\AgendaServiceImpl.class
+pe\gob\edu\ugel\agenda\core\util\CommonUtils.class
+pe\gob\edu\ugel\agenda\core\domain\Activity.class
+pe\gob\edu\ugel\agenda\core\util\AgendaCommons.class
+pe\gob\edu\ugel\agenda\core\domain\BaseEntity.class

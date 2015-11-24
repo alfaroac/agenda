@@ -19,7 +19,8 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
 			classpath:/pe/gob/edu/ugel/agenda/core/config/application-config.xml,
-			classpath:/pe/gob/edu/ugel/agenda/core/config/applicationContext-dao.xml
+			classpath:/pe/gob/edu/ugel/agenda/core/config/applicationContext-dao.xml,
+			classpath:/pe/gob/edu/ugel/agenda/core/service/config/applicationContext-service.xml
 <!-- 			/WEB-INF/applicationContext-spring-security.xml -->
 		</param-value>
 	</context-param>

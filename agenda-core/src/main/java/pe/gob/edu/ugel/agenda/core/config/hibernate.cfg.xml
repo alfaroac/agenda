@@ -7,6 +7,7 @@
 
 		<!-- Common -->
 		<mapping resource="pe/gob/edu/ugel/agenda/core/domain/Activity.hbm.xml" />
+		<mapping resource="pe/gob/edu/ugel/agenda/core/domain/Calendar.hbm.xml" />
 		
 <!-- 		<mapping resource="org/elecciones/core/domain/BaseType.hbm.xml" /> -->
 <!-- 		<mapping resource="org/elecciones/core/domain/Election.hbm.xml" /> -->

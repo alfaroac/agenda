@@ -1,0 +1,1 @@
+INSERT INTO `agenda_core`.`activity` (`id`, `userInvited`, `title`, `description`, `place`, `dateEvent`, `startHour`, `endHour`, `priority`, `userId`, `calendarId`) VALUES (NULL, NULL, 'Reunion Capacitacion', 'Por el aniversario de la ugel el 12 de diciembre', 'UPeU', '2015-11-25 11:00:00', '11', '12', 'importante', '1', '4');

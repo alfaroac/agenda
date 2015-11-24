@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 23/06/2012 10:38:16 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="pe.gob.edu.ugel.agenda.core.domain.Calendar" table="calendar">
+		<id name="id" type="java.lang.Long">
+			<column name="id" />
+			<generator class="identity" />
+		</id>
+
+		<property name="weekCalendar" type="string">
+			<column name="weekCalendar" length="2" />
+		</property>
+		<property name="dayCalendar" type="string">
+			<column name="dayCalendar" length="2" />
+		</property>
+		<property name="dateCalendar" type="timestamp">
+			<column name="dateCalendar" />
+		</property>
+
+
+	</class>
+</hibernate-mapping>

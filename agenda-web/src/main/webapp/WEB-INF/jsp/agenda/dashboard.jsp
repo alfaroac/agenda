@@ -32,8 +32,8 @@
 				<table>
 					<tr align="center">
 						<td align="right">D.N .I / Cod.  &nbsp;:&nbsp;</td>
-						<td><input type="text" id="dni" name="dni" placeholder="DNI / Codigo Estudiante" ondblclick="cleanDniAndStudentId()" maxlength="14" class="input-xlarge"/></td>
-						<td><input type="text" id="studentId" name="studentId" /></td>
+						<td><input type="text" id="dni" name="dni" placeholder="DNI / Codigo Estudiante" ondblclick="cleanDniAndStudentId()" maxlength="14" class="input-xlarge"/></td><tr>
+						<td><input type="text" id="studentId" name="studentId" /></td><tr>
 						<td><input type="text" id="sessionElectionId_" name="sessionElectionId_" /></td>
 						
 					</tr>
