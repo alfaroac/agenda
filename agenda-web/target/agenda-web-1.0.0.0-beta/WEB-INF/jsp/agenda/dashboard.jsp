@@ -29,14 +29,33 @@
 		
 		<div class="control-group">
 			<div class="controls">
-				<table>
+				<table alingn="center">					
 					<tr align="center">
-						<td align="right">D.N .I / Cod.  &nbsp;:&nbsp;</td>
-						<td><input type="text" id="dni" name="dni" placeholder="DNI / Codigo Estudiante" ondblclick="cleanDniAndStudentId()" maxlength="14" class="input-xlarge"/></td>
-						<td><input type="text" id="studentId" name="studentId" /></td>
-						<td><input type="text" id="sessionElectionId_" name="sessionElectionId_" /></td>
-						
+						<td align="right">Título  &nbsp;:&nbsp;</td>
+						<td><input type="text" name="titulo" placeholder="Titulo del evento" class="input-xlarge"/></td>
 					</tr>
+					<tr align="center">
+						<td align="right">Descripción  &nbsp;:&nbsp;</td>
+						<td><textarea class="input-xlarge" name="descripcion" ></textarea></td>
+					</tr>
+					<tr align="center">
+						<td align="right">Lugar  &nbsp;:&nbsp;</td>
+						<td><input type="text" name="lugar" placeholder="Lugar del evento" class="input-xlarge"/></td>
+					</tr>
+					<tr align="center">
+						<td align="right">Prioridad  &nbsp;:&nbsp;</td>
+						<td>
+							<select class="input-xlarge">
+							  <option value="alta">Alta</option>
+							  <option value="media">Media</option>
+							  <option value="baja">Baja</option>							  
+							</select>
+						</td>
+					</tr>
+					<tr align="center">
+						<td align="right">Invitar &nbsp;:&nbsp;</td>
+						<td><input type="text" id="invitar" name="invitar" placeholder="Invitar a" ondblclick="cleanDniAndStudentId()" maxlength="14" class="input-xlarge"/ disabled></td><tr>											
+					</tr>	
 					
 				</table>
 			</div>
