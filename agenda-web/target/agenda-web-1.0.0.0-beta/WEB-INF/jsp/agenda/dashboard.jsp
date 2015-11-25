@@ -1,7 +1,7 @@
 <%@ include file="/WEB-INF/jsp/include/taglibs.jsp"%>
 
-<div class="row-fluid">
-
+<h2 align="center">Calendario de Actividades</h2>
+<div class="row-fluid">	
 
 	<div class="span12">
 
@@ -10,8 +10,6 @@
 	</div>
 </div>
 <br>
-
-
 
 
 <!-- Modal EVALUAR EXPEDIENTE -->

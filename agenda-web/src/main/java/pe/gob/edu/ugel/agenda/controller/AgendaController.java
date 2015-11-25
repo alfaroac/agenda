@@ -61,7 +61,7 @@ public class AgendaController {
 						AgendaCommons.hours[i] + "");
 
 				if (activity == null) {
-					calendarString = calendarString + "	<td><a href='#divFrmSetElector' data-toggle='modal'>Cargar</a></td>";
+					calendarString = calendarString + "	<td><a text-align='center' href='#divFrmSetElector' data-toggle='modal'>+</a></td>";
 				} else {
 					calendarString = calendarString + "	<td>" + activity.getTitle() + "</td>";
 				}
