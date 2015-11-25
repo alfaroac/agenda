@@ -14,6 +14,9 @@
 	<title>Agenda Ugel</title>
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="<%=request.getContextPath()%>/index/css/isr-screen.css?v=1">	
+	<link rel="stylesheet" href="css/css/base.css">
+	<link rel="stylesheet" href="css/css/layout.css">
+	<link rel="stylesheet" href="css/css/akeleton.css">
 	<style>
 	#pw_hint {
 	position: absolute;
@@ -27,16 +30,28 @@
 <!-- !Body -->
 <body class="login" >
 	<div class="wrapper-header">
-		<header class="container_12">
-			<form class="row-fluid form-signin" id="form-login" action="<%=request.getContextPath() %>/j_spring_security_check" method="post" AUTOCOMPLETE="off">
-				<label for="username">Ingrese: </label>	
-				<input type="text" name="j_username" id="username" class="textInput" placeholder="Email" autocomplete="off">
-				<input type="password" name="j_password" id="password" class="textInput" autocomplete="off">
-				<input type="text" id="passwordPlaceholder" class="textInput" placeholder="Password" style="display: none;"/>
-				<input type="submit" name="submit" class="button" value="Ingresar" />
-			</form>
-		</header>
-	</div><!--/ div.wrapper-header /-->
+				
+	<div class="container">		
+	<div class="form-bg">
+		<form class="row-fluid form-signin" id="form-login" action="<%=request.getContextPath() %>/j_spring_security_check" method="post" AUTOCOMPLETE="off">
+			<h2>Login</h2>
+			<p><input type="text" placeholder="Username"></p>
+			<p><input type="password" placeholder="Password"></p>
+			<label for="remember">
+			  <input type="checkbox" id="remember" value="remember" />
+			  <span>Remember me on this computer</span>
+			</label>
+			<button type="submit"></button>
+		<form>
+	</div>
+
+
+	<p class="forgot">Forgot your password? <a href="">Click here to reset it.</a></p>
+
+
+	</div><!-- container -->
+	<script type="text/javascript" src="js/app.js"></script>		
+</div><!--/ div.wrapper-header /-->
 		
 </body>
 </html>

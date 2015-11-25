@@ -33,13 +33,13 @@
 									<tr>
 										<td colspan="2" align="center"><img src="<%=request.getContextPath()%>/images/seguridad.jpg"></td>
 									</tr>
-									<tr>
+									<tr class="form-group">
 										<td align="right">Usuario&nbsp;:&nbsp;</td>
-										<td><input type="text" name="j_username" id="username" class="textInput" placeholder="Usuario" autocomplete="off"></td>
+										<td><input type="email" name="j_username" class="form-control" placeholder="Usuario" id="email" autocomplete="on"></td>
 									</tr>
-									<tr>
+									<tr class="form-group">									
 										<td align="right">Clave&nbsp;:&nbsp;</td>
-										<td><input type="password" name="j_password" id="password" class="textInput" placeholder="Clave"
+										<td><input type="password" name="j_password" id="password" class="form_control" placeholder="Clave"
 											autocomplete="off"></td>
 									</tr>
 									
